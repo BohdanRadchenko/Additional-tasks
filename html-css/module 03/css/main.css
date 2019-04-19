@@ -1,0 +1,67 @@
+* {
+    /*outline: 1px solid red;*/
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.menu {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.menu a { 
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #424242;
+    font-weight: 900;
+}
+
+.menu li:hover a{
+    color: aqua;
+    font-weight: 300;
+}
+
+.art {
+    display: inline-block;
+    margin-right: 30px;
+    width: 450px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-size: 0;
+}
+
+.art img {
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    margin: 0;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.title {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.txt {
+    font-size: 14px;
+    margin: 0;
+}
+
+.task_3 {
+    padding-top: 50px;
+}
